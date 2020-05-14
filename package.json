@@ -2,8 +2,9 @@
   "name": "node-server-testing",
   "version": "1.0.0",
   "description": "Node Server Testing Challenge",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
+    "server": "nodemon index.js",
 		"test:watch": "cross-env NODE_ENV=testing jest --watch",
 		"test": "cross-env NODE_ENV=testing jest",
 		"start:watch": "cross-env NODE_ENV=development nodemon index.js",
